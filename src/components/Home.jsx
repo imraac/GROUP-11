@@ -39,7 +39,7 @@ const Home = () => {
               </Description>
             </ProductDetails>
           </ProductCard>
-          {/* Add more products as needed */}
+         
         </ProductGrid>
       </ProductShowcase>
       <Footer>
