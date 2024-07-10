@@ -35,9 +35,9 @@ const LoginPage = () => {
               </label>
             </div>
             <div className="text-sm">
-              <a href="#" className="font-medium text-blue-600 hover:text-blue-500">
+              <Link to="/forgot-password" className="font-medium text-blue-600 hover:text-blue-500">
                 Forgot your password?
-              </a>
+              </Link>
             </div>
           </div>
           <button
