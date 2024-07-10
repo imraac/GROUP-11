@@ -1,4 +1,8 @@
 
+import Products from './components/Products'
+import Orders from './components/Orders'
+
+
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -13,6 +17,7 @@ import Cart from './components/Cart';
 
 const App = () => {
   return (
+
     <Router>
 
       <div>
@@ -36,6 +41,13 @@ const App = () => {
       </Routes>
     </Router>
   );
+
+    <>
+    <Products />
+    <Orders />
+    </>
+  )
+
 }
 
 
