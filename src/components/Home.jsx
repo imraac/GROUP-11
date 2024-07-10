@@ -64,7 +64,7 @@ const HeroSection = styled.section`
 const HeroText = styled.div`
   max-width: 600px;
   padding: 50px;
-  border-radius: 10px;
+  border-radius: 10px;P
   h1 {
     font-size: 48px;
     margin-bottom: 20px;
