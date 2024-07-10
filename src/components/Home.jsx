@@ -1,3 +1,4 @@
+
 import styled from 'styled-components';
 import { FaShoppingCart } from 'react-icons/fa';
 
@@ -18,7 +19,7 @@ const Home = () => {
         <h2>Featured Products</h2>
         <ProductGrid>
           <ProductCard>
-            <ProductImage src="https://via.placeholder.com/200" alt="Product 1" />
+            <ProductImage src="https://via.placeholder.com/150" alt="Product 1" />
             <ProductDetails>
               <h3>Product 1</h3>
               <p>200.00 Ksh</p>
